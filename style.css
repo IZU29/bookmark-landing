@@ -35,9 +35,9 @@ button{
     border-radius: 3px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.15); 
 }
-.first--buttons button{
+/* .first--buttons button{
     
-}
+} */
 .first--buttons{
     /* border: 1px solid red; */
     display: flex;
@@ -92,9 +92,9 @@ button{
     background-color: #5368df;
     margin: 0 auto;
 }
-.section--faq{
+/* .section--faq{
     /* background-color: #5368df; */
-}
+/* } */
 .accord{
     margin-top: 1.3em;
     margin-bottom: 0.3em;
@@ -231,9 +231,10 @@ button{
         display: flex;
         justify-content: center;
     }
-    .footer--item{
+    .footer--item , .footer--links{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
     .split{
         display: flex;
@@ -247,6 +248,16 @@ button{
     }
     .section--contact button{
         width: 30%;
-        font-size: ;
+        
+    }
+    .footer--links{
+        width: 40%;
+    }
+    .column{
+        display: block;
+    }
+    .icons{
+        /* border: 1px solid white; */
+        width: 10%;
     }
 }
