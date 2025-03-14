@@ -14,12 +14,12 @@ The designs were created to the following widths:
 ### Primary
 
 - Soft Blue: rgb(83, 104, 223)
-- Soft Red: hsl(0, 94%, 66%)
+- Soft Red: #fa5757
 
 ### Neutral
 
 - Grayish Blue: hsl(229, 8%, 60%)
-- Very Dark Blue: hsl(229, 31%, 21%)
+- Very Dark Blue: #252b46
 
 ## Typography
 

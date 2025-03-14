@@ -12,10 +12,14 @@ img{
 .container{
     margin: 0 auto;
     width: 90%;
+    max-width: 900px;
+    
+    /* border: 1px solid black; */
+}
+.centre{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid black; */
 }
 .title , .text{
     text-align: center;
@@ -37,7 +41,7 @@ button{
 .first--buttons{
     /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .first--btn{
@@ -78,6 +82,7 @@ button{
     justify-content: space-evenly;
     min-height: 300px;
     border-radius: 10px;
+    max-width: 250px;
 }
 .extension img{
     width: 40%;
@@ -85,9 +90,37 @@ button{
 .extension button ,.faq--btn{
     color: white;
     background-color: #5368df;
+    margin: 0 auto;
 }
 .section--faq{
     /* background-color: #5368df; */
+}
+.accord{
+    margin-top: 1.3em;
+    margin-bottom: 0.3em;
+}
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.2em;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.accord--btn{
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+.accord--text{
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    /* border: 1px solid; */
+}
+.active{
+    display: flex;
+    flex-direction: column;
 }
 .section--contact{
     padding: 1em;
@@ -127,4 +160,93 @@ button{
     display: flex;
     width: 30%;
     justify-content: space-between;
+}
+@media (min-width : 800px){
+    
+    .section--item{
+        display: flex;
+        flex-direction: row-reverse;
+        /* border: 1px solid green; */
+        justify-content: center;
+    }
+    
+    .second--text,.third--title{
+        text-align: left;
+        /* width: 50%; */
+    }
+    .header--image{
+        /* border: 1px solid red; */
+        width: 45%;
+    }
+    .first--content{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        /* min-height: 100%; */
+        align-items: flex-start;
+        align-self: flex-start;
+        text-align: right;
+        width: 48%;
+    }
+    .first--buttons{
+        /* border: 1px solid blue; */
+        width: 100%;
+        justify-content: left;
+    }
+    button + button{
+        margin-left: 1.2em;
+    }
+    .second--links{
+        display: flex;
+        justify-content: center;
+    }
+    .second--links > li:nth-child(1){
+        border-top: none;
+    }
+    .second--link{
+        margin-left: 1.4em;
+    }
+    .second--text{
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .third--item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+    .illustrate{
+        width: 40%;
+    }
+    .third--content{
+        width: 45%;
+        align-items: flex-start;
+    }
+    .div--contain{
+        display: flex;
+        justify-content: center;
+    }
+    .footer--item{
+        display: flex;
+        flex-direction: row;
+    }
+    .split{
+        display: flex;
+        /* border: 1px solid; */
+        width: 40%;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+    .section--contact input{
+        width: 60%;
+    }
+    .section--contact button{
+        width: 30%;
+        font-size: ;
+    }
 }
