@@ -53,16 +53,15 @@ button{
 }
 .header--image{
 position: relative;
-display: inline-block;
+display: flex;
 overflow: hidden;
 }
 .header--image::after{
 content: '';
 position: absolute;
+align-self: flex-end;
 height: 200px;
-width: 400px;
-/* bottom: 0; */
-top: 25%;
+width: 500px;
 left: 150px;
 background-color: #5368df;
 z-index: -1;
@@ -88,14 +87,16 @@ border-bottom-left-radius: 100px;
     border-top: 0.6px solid #9194a1;
 }
 .illustrate{
-    display: inline-block;
+    display: flex;
     position: relative;
+    /* overflow: hidden; */
 }
 .illustrate::after{
 content: '';
 position: absolute;
+align-self: flex-end;
 height: 200px;
-width: 400px;
+width: 600px;
 /* bottom: 0; */
 top: 25%;
 right: 150px;
