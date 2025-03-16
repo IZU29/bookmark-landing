@@ -39,7 +39,7 @@ img{
 .no--bg{
     background: none;
     height: 0;
-    margin-bottom: 1em;
+    margin-bottom: 1.6em;
     z-index: 2;
 }
 .no--nav{
@@ -54,7 +54,7 @@ img{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    min-height: 600px;
+    min-height: 550px;
     /* border: 1px solid white; */
     align-items: center;
     
