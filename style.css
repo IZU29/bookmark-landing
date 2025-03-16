@@ -28,6 +28,55 @@ img{
     color: #9194a1;
     font-size: 0.8rem;
 }
+.nav--bar{
+    position: absolute;
+    /* border: 1px solid; */
+    background: #252b46;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 2;
+}
+.no--bg{
+    background: none;
+    height: 0;
+    margin-bottom: 1em;
+    z-index: 2;
+}
+.no--nav{
+    display: none;
+}
+.display{
+    display: flex;
+}
+.nav--links{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 600px;
+    /* border: 1px solid white; */
+    align-items: center;
+    
+}
+.flex{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.nav--link{
+    font-size: 2em;
+    margin: 1.5em 0;
+    color: white;
+    width: 80%;
+    padding: 0.7em;
+    /* border: 1px 0px solid grey; */
+}
+.nav--link:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+}
 button{
     font-family: "Rubik", sans-serif;
     padding: 0.8em;
